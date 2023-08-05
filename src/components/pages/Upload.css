@@ -1,26 +1,77 @@
-form{
+
+.UploadMain {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    height: 85vh;
+    background-color: #f8f8f8;
+}
+
+/* Style the upload form */
+.UploadForm {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    border: 2px dashed #1f98f4;
-    height: 300px;
-    width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 150px;
     cursor: pointer;
-    border-radius: 5px;
 }
 
-.uploaded-row{
-    margin: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    border-radius: 5px;
-    background-color: #1f98f4;
+/* Style the file input */
+.UploadForm input {
+    display: none;
 }
 
-.upload-content{
+/* Style the upload icon */
+.UploadForm svg {
+    color: #1475cf;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+/* Style the upload text */
+.UploadForm p {
+    font-size: 1.2rem;
+    color: #1475cf;
+    margin: 0;
+}
+
+/* Style the uploaded file row */
+.uploaded-row {
     display: flex;
     align-items: center;
+    margin-top: 20px;
+}
+
+/* Style the file icon */
+.uploaded-row svg {
+    color: #1475cf;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Style the file name and delete icon */
+.upload-content {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+/* Style the delete icon */
+.upload-content svg {
+    color: #1475cf;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Style form error messages (if applicable) */
+.UploadForm .error {
+    color: #dc3545;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
 }

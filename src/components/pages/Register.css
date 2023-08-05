@@ -1,0 +1,73 @@
+/* Register.css */
+
+/* Style the main container */
+.RegisterDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+/* Style the register heading */
+.RegisterH1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Style the register form */
+.RegisterForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 400px;
+}
+
+/* Style the input fields */
+.RegisterForm input {
+    margin-bottom: 1rem;
+    padding: 0.7rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Style the submit button */
+.RegisterForm input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.RegisterForm input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Style the link */
+.RegisterForm a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.RegisterForm a:hover {
+    text-decoration: underline;
+}
+
+/* Style form error messages */
+.RegisterForm .error {
+    color: #dc3545;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}

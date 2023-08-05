@@ -6,7 +6,11 @@ import Upload from "./components/pages/Upload";
 import Rating from "./components/pages/Rating";
 import Login from "./components/pages/Login";
 import Navbar from "./components/Navbar";
-import './App.css'
+import Register from "./components/pages/Register";
+import Dashboard from "./components/pages/Dashboard";
+import CardsDegree from "./components/pages/CardsDegree";
+import PickAYear from "./components/pages/DegreesSubjects/PickAYear";
+import ComputerScience from "./components/pages/DegreesSubjects/ComputerScience";
 
 function App() {
   return (
@@ -18,6 +22,12 @@ function App() {
                 <Route path="/upload" element={<Upload />} />
                 <Route path="/rating" element={<Rating />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
+                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/cardsDegree" element={<CardsDegree />} />
+                <Route path="/pickAYear" element={<PickAYear />} />
+                <Route path="/computerScience" element={<ComputerScience />} />
+
             </Routes>
         </Router>
     </>

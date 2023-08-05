@@ -13,19 +13,19 @@ function Cards(){
                         src="images/images.png"
                         text="The Academic College Of Tel Aviv"
                         label="College"
-                        path='/Upload'
+                        path='/CardsDegree'
                         />
                         <CardItem
                             src="images/Reichman.png"
                             text="Reichman University"
                             label="University"
-                            path='/Upload'
+                            path='/CardsDegree'
                         />
                         <CardItem
                             src="images/tau4.png"
                             text="Tel Aviv University"
                             label="University"
-                            path='/Upload'
+                            path='/CardsDegree'
                         />
                     </ul>
                 </div>

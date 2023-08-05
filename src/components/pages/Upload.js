@@ -7,9 +7,10 @@ function Upload(){
     const [image, setImage] = useState(null)
     const [fileName, setFileName] = useState("No Selected File")
     return (
-        <main>
+        <main className='UploadMain'>
             <form action=""
             onClick={() => document.querySelector(".input-field").click()}
+                  className='UploadForm'
             >
                 <input type="file" accept='image/*' className='input-field' hidden
                 onChange={({target: {files}}) => {

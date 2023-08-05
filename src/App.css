@@ -13,28 +13,10 @@
   font-size: 3rem;
 }
 
-.upload {
-  background-image: url('../public/images/Reichman.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
 .rating {
   background-image: url('../public/images/img-home.jpg');
   background-position: center;
   background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.login {
-  background-image: url('../public/images/tau4.png');
-  background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
